@@ -16,12 +16,14 @@ body {
 @import 'bootstrap-responsive';
 
 .navbar-inner {
+	padding-top: 5px;
 	@include box-shadow(none !important);
 	border: 0;
 }
 
 .add-pin-button {
 	float: left;
+	padding-right: 10px;
 }
 
 .footer {
